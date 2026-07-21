@@ -1,0 +1,1668 @@
+{
+  "deck": {
+    "name": "Generic assembly and quality closed loop",
+    "canvas_width": 1507,
+    "canvas_height": 1321,
+    "slide_width_in": 13.333,
+    "slide_height_in": 11.689
+  },
+  "slides": [
+    {
+      "name": "Complex assembly flow",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "type": "shape",
+          "id": "component-a-zone",
+          "shape": "roundRect",
+          "x": 61,
+          "y": 165,
+          "w": 542,
+          "h": 344,
+          "fill": "#FFFFFF",
+          "stroke": "#5DA59D",
+          "stroke_width_pt": 1.5,
+          "dash": true
+        },
+        {
+          "type": "shape",
+          "id": "component-b-zone",
+          "shape": "roundRect",
+          "x": 741,
+          "y": 165,
+          "w": 431,
+          "h": 335,
+          "fill": "#FFFFFF",
+          "stroke": "#F48BC0",
+          "stroke_width_pt": 1.5,
+          "dash": true
+        },
+        {
+          "type": "connector",
+          "id": "s1-s2",
+          "points": [
+            [
+              141,
+              291
+            ],
+            [
+              141,
+              321
+            ]
+          ],
+          "stroke": "#078491",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "s2-s3",
+          "points": [
+            [
+              141,
+              381
+            ],
+            [
+              141,
+              410
+            ]
+          ],
+          "stroke": "#078491",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "s3-s4",
+          "points": [
+            [
+              202,
+              440
+            ],
+            [
+              261,
+              440
+            ]
+          ],
+          "stroke": "#078491",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "s4-s5",
+          "points": [
+            [
+              321,
+              410
+            ],
+            [
+              321,
+              381
+            ]
+          ],
+          "stroke": "#078491",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "s5-s6",
+          "points": [
+            [
+              321,
+              320
+            ],
+            [
+              321,
+              291
+            ]
+          ],
+          "stroke": "#078491",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "s6-s7",
+          "points": [
+            [
+              382,
+              261
+            ],
+            [
+              441,
+              261
+            ]
+          ],
+          "stroke": "#078491",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "s7-s8",
+          "points": [
+            [
+              501,
+              291
+            ],
+            [
+              501,
+              321
+            ]
+          ],
+          "stroke": "#078491",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "s8-s9",
+          "points": [
+            [
+              501,
+              381
+            ],
+            [
+              501,
+              410
+            ]
+          ],
+          "stroke": "#078491",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "component-a-main",
+          "points": [
+            [
+              331,
+              509
+            ],
+            [
+              331,
+              575
+            ],
+            [
+              361,
+              575
+            ],
+            [
+              361,
+              641
+            ]
+          ],
+          "stroke": "#078491",
+          "stroke_width_pt": 1.5,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "r1-r2",
+          "points": [
+            [
+              851,
+              291
+            ],
+            [
+              851,
+              320
+            ]
+          ],
+          "stroke": "#B94534",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "r2-r3",
+          "points": [
+            [
+              851,
+              381
+            ],
+            [
+              851,
+              410
+            ]
+          ],
+          "stroke": "#B94534",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "r3-r4",
+          "points": [
+            [
+              912,
+              440
+            ],
+            [
+              1041,
+              440
+            ]
+          ],
+          "stroke": "#B94534",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "r4-r5",
+          "points": [
+            [
+              1101,
+              410
+            ],
+            [
+              1101,
+              376
+            ]
+          ],
+          "stroke": "#B94534",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "r5-r6",
+          "points": [
+            [
+              1101,
+              315
+            ],
+            [
+              1101,
+              291
+            ]
+          ],
+          "stroke": "#B94534",
+          "stroke_width_pt": 1.3,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "component-b-main",
+          "points": [
+            [
+              956,
+              500
+            ],
+            [
+              956,
+              570
+            ],
+            [
+              886,
+              570
+            ],
+            [
+              886,
+              641
+            ]
+          ],
+          "stroke": "#B94534",
+          "stroke_width_pt": 1.5,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p1-p2",
+          "points": [
+            [
+              222,
+              671
+            ],
+            [
+              288,
+              671
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p2-p3",
+          "points": [
+            [
+              408,
+              671
+            ],
+            [
+              461,
+              671
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p3-p4",
+          "points": [
+            [
+              582,
+              671
+            ],
+            [
+              631,
+              671
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p4-p5",
+          "points": [
+            [
+              752,
+              671
+            ],
+            [
+              801,
+              671
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p5-p6",
+          "points": [
+            [
+              972,
+              671
+            ],
+            [
+              1011,
+              671
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p6-p7",
+          "points": [
+            [
+              1132,
+              671
+            ],
+            [
+              1171,
+              671
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "top-to-second-row",
+          "points": [
+            [
+              1342,
+              671
+            ],
+            [
+              1443,
+              671
+            ],
+            [
+              1443,
+              1030
+            ],
+            [
+              1392,
+              1030
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p8-p9",
+          "points": [
+            [
+              1271,
+              1030
+            ],
+            [
+              1222,
+              1030
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p9-p10",
+          "points": [
+            [
+              1101,
+              1030
+            ],
+            [
+              1062,
+              1030
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p10-p11",
+          "points": [
+            [
+              941,
+              1030
+            ],
+            [
+              902,
+              1030
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p11-p12",
+          "points": [
+            [
+              781,
+              1030
+            ],
+            [
+              742,
+              1030
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p12-p13",
+          "points": [
+            [
+              571,
+              1030
+            ],
+            [
+              529,
+              1030
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "p13-p14",
+          "points": [
+            [
+              408,
+              1030
+            ],
+            [
+              352,
+              1030
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "appearance-label",
+          "points": [
+            [
+              291,
+              1060
+            ],
+            [
+              291,
+              1120
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "b1-b2",
+          "points": [
+            [
+              352,
+              1150
+            ],
+            [
+              408,
+              1150
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "b2-b3",
+          "points": [
+            [
+              529,
+              1150
+            ],
+            [
+              571,
+              1150
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "b3-b4",
+          "points": [
+            [
+              722,
+              1150
+            ],
+            [
+              781,
+              1150
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "b4-b5",
+          "points": [
+            [
+              902,
+              1150
+            ],
+            [
+              951,
+              1150
+            ]
+          ],
+          "stroke": "#565286",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "rework-a-source",
+          "points": [
+            [
+              1256,
+              701
+            ],
+            [
+              1256,
+              735
+            ],
+            [
+              1001,
+              735
+            ],
+            [
+              1001,
+              770
+            ]
+          ],
+          "stroke": "#B64B42",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "rework-b-source",
+          "points": [
+            [
+              1071,
+              701
+            ],
+            [
+              1071,
+              735
+            ],
+            [
+              1122,
+              735
+            ],
+            [
+              1122,
+              890
+            ],
+            [
+              1061,
+              890
+            ]
+          ],
+          "stroke": "#B64B42",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "rework-a-return",
+          "points": [
+            [
+              941,
+              800
+            ],
+            [
+              851,
+              800
+            ],
+            [
+              851,
+              701
+            ]
+          ],
+          "stroke": "#B64B42",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "rework-b-return",
+          "points": [
+            [
+              941,
+              890
+            ],
+            [
+              851,
+              890
+            ],
+            [
+              851,
+              701
+            ]
+          ],
+          "stroke": "#B64B42",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "split-to-repair",
+          "points": [
+            [
+              1122,
+              850
+            ],
+            [
+              1367,
+              850
+            ],
+            [
+              1367,
+              871
+            ]
+          ],
+          "stroke": "#B64B42",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "test1-fail",
+          "points": [
+            [
+              1006,
+              1000
+            ],
+            [
+              1006,
+              965
+            ],
+            [
+              1338,
+              965
+            ],
+            [
+              1338,
+              931
+            ]
+          ],
+          "stroke": "#B64B42",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "test2-fail",
+          "points": [
+            [
+              1161,
+              1000
+            ],
+            [
+              1161,
+              965
+            ],
+            [
+              1394,
+              965
+            ],
+            [
+              1394,
+              931
+            ]
+          ],
+          "stroke": "#B64B42",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "connector",
+          "id": "bottom-test-fail",
+          "points": [
+            [
+              647,
+              1180
+            ],
+            [
+              647,
+              1220
+            ],
+            [
+              120,
+              1220
+            ],
+            [
+              120,
+              940
+            ],
+            [
+              1170,
+              940
+            ],
+            [
+              1170,
+              915
+            ],
+            [
+              1311,
+              915
+            ]
+          ],
+          "stroke": "#B64B42",
+          "stroke_width_pt": 1.7,
+          "arrow_end": true
+        },
+        {
+          "type": "shape",
+          "id": "s1",
+          "shape": "roundRect",
+          "x": 81,
+          "y": 230,
+          "w": 121,
+          "h": 61,
+          "fill": "#A8DDE1",
+          "stroke": "#078491",
+          "stroke_width_pt": 0.8,
+          "text": "物料齐套",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "s2",
+          "shape": "roundRect",
+          "x": 81,
+          "y": 321,
+          "w": 121,
+          "h": 60,
+          "fill": "#A8DDE1",
+          "stroke": "#078491",
+          "stroke_width_pt": 0.8,
+          "text": "尺寸复核",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "s3",
+          "shape": "roundRect",
+          "x": 81,
+          "y": 410,
+          "w": 121,
+          "h": 61,
+          "fill": "#A8DDE1",
+          "stroke": "#078491",
+          "stroke_width_pt": 0.8,
+          "text": "表面清洁",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "s4",
+          "shape": "roundRect",
+          "x": 261,
+          "y": 410,
+          "w": 121,
+          "h": 61,
+          "fill": "#A8DDE1",
+          "stroke": "#078491",
+          "stroke_width_pt": 0.8,
+          "text": "定位装夹",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "s5",
+          "shape": "roundRect",
+          "x": 261,
+          "y": 320,
+          "w": 121,
+          "h": 61,
+          "fill": "#A8DDE1",
+          "stroke": "#078491",
+          "stroke_width_pt": 0.8,
+          "text": "参数确认",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "s6",
+          "shape": "roundRect",
+          "x": 261,
+          "y": 230,
+          "w": 121,
+          "h": 61,
+          "fill": "#A8DDE1",
+          "stroke": "#078491",
+          "stroke_width_pt": 0.8,
+          "text": "预装配",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "s7",
+          "shape": "roundRect",
+          "x": 441,
+          "y": 230,
+          "w": 121,
+          "h": 61,
+          "fill": "#A8DDE1",
+          "stroke": "#078491",
+          "stroke_width_pt": 0.8,
+          "text": "扭矩锁付",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "s8",
+          "shape": "roundRect",
+          "x": 441,
+          "y": 321,
+          "w": 121,
+          "h": 60,
+          "fill": "#A8DDE1",
+          "stroke": "#078491",
+          "stroke_width_pt": 0.8,
+          "text": "过程检验",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "s9",
+          "shape": "roundRect",
+          "x": 441,
+          "y": 410,
+          "w": 121,
+          "h": 61,
+          "fill": "#A8DDE1",
+          "stroke": "#078491",
+          "stroke_width_pt": 0.8,
+          "text": "转序",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "r1",
+          "shape": "roundRect",
+          "x": 791,
+          "y": 230,
+          "w": 121,
+          "h": 61,
+          "fill": "#F8D5CF",
+          "stroke": "#C84D38",
+          "stroke_width_pt": 0.8,
+          "text": "组件配对",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "r2",
+          "shape": "roundRect",
+          "x": 791,
+          "y": 320,
+          "w": 121,
+          "h": 61,
+          "fill": "#F8D5CF",
+          "stroke": "#C84D38",
+          "stroke_width_pt": 0.8,
+          "text": "编码绑定",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "r3",
+          "shape": "roundRect",
+          "x": 791,
+          "y": 410,
+          "w": 121,
+          "h": 61,
+          "fill": "#F8D5CF",
+          "stroke": "#C84D38",
+          "stroke_width_pt": 0.8,
+          "text": "功能预检",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "r4",
+          "shape": "roundRect",
+          "x": 1041,
+          "y": 410,
+          "w": 121,
+          "h": 61,
+          "fill": "#F8D5CF",
+          "stroke": "#C84D38",
+          "stroke_width_pt": 0.8,
+          "text": "参数校准",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "r5",
+          "shape": "roundRect",
+          "x": 1041,
+          "y": 315,
+          "w": 121,
+          "h": 61,
+          "fill": "#F8D5CF",
+          "stroke": "#C84D38",
+          "stroke_width_pt": 0.8,
+          "text": "外观复核",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "r6",
+          "shape": "roundRect",
+          "x": 1041,
+          "y": 230,
+          "w": 121,
+          "h": 61,
+          "fill": "#F8D5CF",
+          "stroke": "#C84D38",
+          "stroke_width_pt": 0.8,
+          "text": "转序",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p1",
+          "shape": "roundRect",
+          "x": 101,
+          "y": 641,
+          "w": 121,
+          "h": 60,
+          "fill": "#D4D2E5",
+          "stroke": "#565286",
+          "stroke_width_pt": 0.8,
+          "text": "工位接收",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p2",
+          "shape": "roundRect",
+          "x": 288,
+          "y": 641,
+          "w": 120,
+          "h": 60,
+          "fill": "#A8DDE1",
+          "stroke": "#078491",
+          "stroke_width_pt": 0.8,
+          "text": "装配组件 A",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p3",
+          "shape": "roundRect",
+          "x": 461,
+          "y": 641,
+          "w": 121,
+          "h": 60,
+          "fill": "#D4D2E5",
+          "stroke": "#565286",
+          "stroke_width_pt": 0.8,
+          "text": "安装轴承",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.2,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p4",
+          "shape": "roundRect",
+          "x": 631,
+          "y": 641,
+          "w": 121,
+          "h": 60,
+          "fill": "#A9C8EC",
+          "stroke": "#4B77B8",
+          "stroke_width_pt": 0.8,
+          "text": "首次润滑",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.2,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p5",
+          "shape": "roundRect",
+          "x": 801,
+          "y": 641,
+          "w": 171,
+          "h": 60,
+          "fill": "#F8D7D2",
+          "stroke": "#C84D38",
+          "stroke_width_pt": 0.8,
+          "text": "安装连接组件",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 9.7,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p6",
+          "shape": "roundRect",
+          "x": 1011,
+          "y": 641,
+          "w": 121,
+          "h": 60,
+          "fill": "#F8D7D2",
+          "stroke": "#C84D38",
+          "stroke_width_pt": 0.8,
+          "text": "主件合装",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p7",
+          "shape": "roundRect",
+          "x": 1171,
+          "y": 641,
+          "w": 171,
+          "h": 60,
+          "fill": "#F8D7D2",
+          "stroke": "#C84D38",
+          "stroke_width_pt": 0.8,
+          "text": "安装防护组件",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 9.7,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "rework-part-a",
+          "shape": "roundRect",
+          "x": 941,
+          "y": 770,
+          "w": 120,
+          "h": 60,
+          "fill": "#FFE09A",
+          "stroke": "#D1A22A",
+          "stroke_width_pt": 0.8,
+          "text": "待返工件 A",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "rework-part-b",
+          "shape": "roundRect",
+          "x": 941,
+          "y": 860,
+          "w": 120,
+          "h": 60,
+          "fill": "#FFE09A",
+          "stroke": "#D1A22A",
+          "stroke_width_pt": 0.8,
+          "text": "待返工件 B",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "repair",
+          "shape": "roundRect",
+          "x": 1311,
+          "y": 871,
+          "w": 111,
+          "h": 60,
+          "fill": "#EA7770",
+          "stroke": "#B64B42",
+          "stroke_width_pt": 0.9,
+          "text": "返工工位",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p8",
+          "shape": "roundRect",
+          "x": 1271,
+          "y": 1000,
+          "w": 121,
+          "h": 60,
+          "fill": "#D4D2E5",
+          "stroke": "#565286",
+          "stroke_width_pt": 0.8,
+          "text": "结构锁定",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p9",
+          "shape": "roundRect",
+          "x": 1101,
+          "y": 1000,
+          "w": 121,
+          "h": 60,
+          "fill": "#D4D2E5",
+          "stroke": "#565286",
+          "stroke_width_pt": 0.8,
+          "text": "通断测试",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p10",
+          "shape": "roundRect",
+          "x": 941,
+          "y": 1000,
+          "w": 121,
+          "h": 60,
+          "fill": "#EA7770",
+          "stroke": "#B64B42",
+          "stroke_width_pt": 0.9,
+          "text": "功能综合测试",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 9.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p11",
+          "shape": "roundRect",
+          "x": 781,
+          "y": 1000,
+          "w": 121,
+          "h": 60,
+          "fill": "#A9C8EC",
+          "stroke": "#4B77B8",
+          "stroke_width_pt": 0.8,
+          "text": "二次润滑",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.2,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p12",
+          "shape": "roundRect",
+          "x": 571,
+          "y": 1000,
+          "w": 171,
+          "h": 60,
+          "fill": "#D4D2E5",
+          "stroke": "#565286",
+          "stroke_width_pt": 0.8,
+          "text": "密封与固化",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 9.7,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p13",
+          "shape": "roundRect",
+          "x": 408,
+          "y": 1000,
+          "w": 121,
+          "h": 60,
+          "fill": "#D4D2E5",
+          "stroke": "#565286",
+          "stroke_width_pt": 0.8,
+          "text": "固化确认",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "p14",
+          "shape": "roundRect",
+          "x": 231,
+          "y": 1000,
+          "w": 121,
+          "h": 60,
+          "fill": "#D4D2E5",
+          "stroke": "#565286",
+          "stroke_width_pt": 0.8,
+          "text": "外观检查",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "b1",
+          "shape": "roundRect",
+          "x": 231,
+          "y": 1120,
+          "w": 121,
+          "h": 60,
+          "fill": "#D4D2E5",
+          "stroke": "#565286",
+          "stroke_width_pt": 0.8,
+          "text": "贴追溯标签",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "b2",
+          "shape": "roundRect",
+          "x": 408,
+          "y": 1120,
+          "w": 121,
+          "h": 60,
+          "fill": "#D4D2E5",
+          "stroke": "#565286",
+          "stroke_width_pt": 0.8,
+          "text": "终装锁付",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "b3",
+          "shape": "roundRect",
+          "x": 571,
+          "y": 1120,
+          "w": 151,
+          "h": 60,
+          "fill": "#EA7770",
+          "stroke": "#B64B42",
+          "stroke_width_pt": 0.9,
+          "text": "终检测试",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 9.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "b4",
+          "shape": "roundRect",
+          "x": 781,
+          "y": 1120,
+          "w": 121,
+          "h": 60,
+          "fill": "#D4D2E5",
+          "stroke": "#565286",
+          "stroke_width_pt": 0.8,
+          "text": "出货检查",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "shape",
+          "id": "b5",
+          "shape": "roundRect",
+          "x": 951,
+          "y": 1120,
+          "w": 121,
+          "h": 60,
+          "fill": "#A8D98F",
+          "stroke": "#5D9E45",
+          "stroke_width_pt": 0.8,
+          "text": "包装入库",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "bold": true,
+          "color": "#FF0000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "text",
+          "id": "example-note",
+          "x": 33,
+          "y": 32,
+          "w": 780,
+          "h": 30,
+          "text": "匿名公开示例｜复杂装配、检测与返工闭环",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "color": "#000000",
+          "align": "left",
+          "valign": "middle"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "x": 350,
+          "y": 72,
+          "w": 820,
+          "h": 54,
+          "text": "通用产品装配与质量闭环流程",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 23,
+          "bold": true,
+          "color": "#000000",
+          "align": "center",
+          "valign": "middle"
+        },
+        {
+          "type": "text",
+          "id": "component-a-title",
+          "x": 100,
+          "y": 177,
+          "w": 120,
+          "h": 36,
+          "text": "部件准备 A",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 13,
+          "bold": true,
+          "color": "#4B928B",
+          "align": "left",
+          "valign": "middle"
+        },
+        {
+          "type": "text",
+          "id": "component-b-title",
+          "x": 808,
+          "y": 177,
+          "w": 120,
+          "h": 36,
+          "text": "部件准备 B",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 13,
+          "bold": true,
+          "color": "#F277B5",
+          "align": "left",
+          "valign": "middle"
+        },
+        {
+          "type": "text",
+          "id": "split-label",
+          "x": 1124,
+          "y": 822,
+          "w": 185,
+          "h": 38,
+          "text": "拆分后的返工件",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 12,
+          "bold": true,
+          "color": "#000000",
+          "align": "left",
+          "valign": "middle"
+        },
+        {
+          "type": "text",
+          "id": "fail-label-1",
+          "x": 946,
+          "y": 964,
+          "w": 65,
+          "h": 30,
+          "text": "不合格",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "left",
+          "valign": "middle"
+        },
+        {
+          "type": "text",
+          "id": "fail-label-2",
+          "x": 1106,
+          "y": 964,
+          "w": 65,
+          "h": 30,
+          "text": "不合格",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "left",
+          "valign": "middle"
+        },
+        {
+          "type": "text",
+          "id": "fail-label-3",
+          "x": 590,
+          "y": 1181,
+          "w": 65,
+          "h": 30,
+          "text": "不合格",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 11.5,
+          "bold": true,
+          "color": "#000000",
+          "align": "left",
+          "valign": "middle"
+        },
+        {
+          "type": "text",
+          "id": "editability-note",
+          "x": 690,
+          "y": 1265,
+          "w": 790,
+          "h": 36,
+          "text": "所有节点、文字和连接线均可在 PowerPoint 中独立编辑",
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 10.5,
+          "color": "#000000",
+          "align": "right",
+          "valign": "middle"
+        }
+      ]
+    }
+  ]
+}
