@@ -4,6 +4,18 @@
 
 > 这不是传统的图片自动矢量化工具。重绘质量主要取决于宿主 LLM 是否能够看懂图片、准确读取文字、理解连接关系，并根据渲染预览反复修正。
 
+## 重绘效果对比
+
+以下是一个完全虚构的复杂装配与质量闭环示例，不包含真实项目、客户、设备或业务数据。左侧是交给 Agent 的输入 PNG，右侧是原生可编辑 PPTX 经 Microsoft PowerPoint 导出的实际结果。
+
+| 输入 PNG | 可编辑 PPTX 的 PowerPoint 渲染结果 |
+|---|---|
+| ![复杂流程图输入图片](examples/complex-assembly-flow/source.png) | ![复杂流程图 PowerPoint 重绘结果](examples/complex-assembly-flow/rebuilt-preview.png) |
+
+[下载原生可编辑 PPTX 示例](examples/complex-assembly-flow/editable.pptx) · [查看结构化 Manifest](examples/complex-assembly-flow/manifest.json)
+
+该示例包含双分区准备流程、主装配链、返工件拆分、跨区回流、两轮测试和多条不合格闭环。最终 PPTX 共 112 个原生对象、46 个文本对象和 64 条连接线段，图片对象为 0，PowerPoint 实际渲染文字溢出为 0。
+
 ## 使用前提
 
 使用该 Skill 的 Agent 必须具备以下能力：
