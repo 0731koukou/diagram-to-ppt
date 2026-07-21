@@ -1,0 +1,5 @@
+interface:
+  display_name: "Diagram to PPT"
+  short_description: "将架构图、流程图和组织结构图原生重绘为可编辑PPT文件"
+  default_prompt: "Use $diagram-to-ppt to redraw this architecture, flowchart, or organization chart image as an editable PowerPoint slide."
+
